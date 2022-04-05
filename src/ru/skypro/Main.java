@@ -7,12 +7,14 @@ public class Main {
 
         System.out.println(" Task 1. Answers.");
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(i + " ");
+        int a = 1;
+        while (a <= 10) {
+            System.out.print(a + " ");
+            a ++;
         }
         System.out.print("\n");
         for (int i = 10; i >= 1; i--) {
-            System.out.print(i + " ");
+            System.out.print( i + " ");
         }
 
         // Task 2
